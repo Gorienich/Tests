@@ -37,7 +37,6 @@ namespace Library.UnitTests
             // Arrange
             #region Take the account data
 
-            // נרצה לקרוא את פרטי הקורא של כרטיס הספרייה, כרגע נתון בעבודה שיש רק קורא אחד לכל מנוי
             DataRow readerFromXML = TestContext.DataRow.GetChildRows("Account_Reader")[0];
             string readerFirstName = readerFromXML["firstName"].ToString();
             string readerLastName = readerFromXML["lastName"].ToString();
